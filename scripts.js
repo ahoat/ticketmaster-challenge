@@ -19,3 +19,10 @@ let users = {"email" : "Ahoa@test.com",
             "password" : "123456"
 }
 
+
+//grap input from index.html
+
+const email = document.querySelector(".email");
+
+email.value = users.email;
+console.log(users.email);

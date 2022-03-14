@@ -11,15 +11,15 @@
     <main>
     <div class="signIn-container, center">
         <h1>Welcome to Ticketmaster</h1>
-        <h2>Please sign in</h2>
+        <h2>Please sign in to join the waiting list</h2>
 
         <div class="signIn-box">
             <fieldset>
             <form action="index.html" class="signIn-form">
                 <label for="username">Username:</label>
-                <input type="email" class="userEmail stack-md" placeholder="Enter email to sign in" />
+                <input type="email" id="username" class="userEmail stack-md" placeholder="Enter email to sign in" />
                 <label for="password">Password:</label>
-                <input type="text" minlength="6" class="password stack-md" />
+                <input type="password" id="password" minlength="6" class="password stack-md" autocomplete="off" />
                 <input type="submit" class="signIn-btn" value="Sign In" />
             </form>
             </fieldset>
