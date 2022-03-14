@@ -5,6 +5,10 @@ For this challenge, I have decided to focus on the sign in page and have the ema
 I used localStorage getters and setters to store the username and populate the email field.
 I created a test user object for the username and password which is used in the validation of the sign in page.
 
+## Username & password for testing:
+username = Ahoa@test.com
+password = testing
+
 ## case study
 
 At Ticketmaster we have a specific scenario where an event might currently have no tickets available, but more might appear in the future (for example, if a promotor releases more tickets for us to sell).
