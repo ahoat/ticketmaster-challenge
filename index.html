@@ -12,7 +12,7 @@
       <div class="center">
           <h1>Join our waiting list!</h1>
           <hr>
-            <form>
+            <form id="waiting-list" action="/">
                 <p>Please select your preferred contact method</p>
                 <div class="form-container">
                     <input type="checkbox" id="email-check" />
@@ -20,7 +20,9 @@
                     <input type="email" name="email" id="email" /> <br><br>
                     <input type="checkbox" id="mobile-check" />
                     <label for="mobile">Mobile:</label>
-                    <input type="number" name="mobile" maxlength="11" id="mobile" />
+                    <input type="number" name="mobile" maxlength="11" id="mobile" /><br><br>
+                    <input type="submit" class="submit-btn" value="Join the waiting list" />
+                    <p class="error">You need to select at least 1 contact option</p>
                 </div>
             </form>
         </div>
