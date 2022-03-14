@@ -8,11 +8,24 @@
   <title>Sign-in to Ticketmaster</title>
 </head>
 <body>
-    <h1>Welcome to Ticketmaster</h1>
-    <h2>Please sign in</h2>
-  <main>
-      
-  </main>
+    <main>
+    <div class="signIn-container, center">
+        <h1>Welcome to Ticketmaster</h1>
+        <h2>Please sign in</h2>
+
+        <div class="signIn-box">
+            <fieldset>
+            <form action="index.html">
+                <label for="username">Username:</label>
+                <input type="email" class="userEmail stack-md" placeholder="Enter email to sign in" />
+                <label for="password">Password:</label>
+                <input type="text" minlength="6" class="password stack-md" />
+                <input type="submit" class="signIn-btn" value="Sign In" />
+            </form>
+            </fieldset>
+        </div>
+    </div>
+    </main>
   <script src="scripts.js"></script>
 </body>
 </html>
