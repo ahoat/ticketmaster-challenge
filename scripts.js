@@ -17,10 +17,6 @@ form.addEventListener("submit", e => {
     }
 });
 
-// signInBtn.addEventListener("click", () => {
-//     console.log("clicked!");
-// })
-
 //create test user object
 
 let users = {"email" : "Ahoa@test.com",
