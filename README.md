@@ -32,7 +32,7 @@ The design of the form is attached and there are a number of features required, 
 
 ## screenshots
 
-[Sign in failed] (https://github.com/ahoat/ticketmaster-challenge/blob/main/signInFail.JPG)
+![Sign in failed] (https://github.com/ahoat/ticketmaster-challenge/blob/main/signInFail.JPG)
 
 ## User Stories
 
