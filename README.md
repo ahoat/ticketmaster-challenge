@@ -32,7 +32,8 @@ The design of the form is attached and there are a number of features required, 
 
 ## screenshots
 
-![Sign in failed](https://github.com/ahoat/ticketmaster-challenge/blob/main/signInFail.JPG)
+<img src="https://github.com/ahoat/ticketmaster-challenge/blob/main/signInFail.JPG" width="200">
+<img src="https://github.com/ahoat/ticketmaster-challenge/blob/main/waitingListform.JPG" width="200">
 
 ## User Stories
 
