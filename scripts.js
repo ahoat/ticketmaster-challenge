@@ -9,6 +9,7 @@ const errorMessage = document.querySelectorAll(".error");
 form.addEventListener("submit", e => {
     e.preventDefault();
     if (username.value === users.email && password.value === users.password) {
+        localStorage.setItem("username", username.value);
         form.submit();
     } else {
         errorMessage.forEach((element) => {
@@ -16,9 +17,9 @@ form.addEventListener("submit", e => {
     }
 });
 
-signInBtn.addEventListener("click", () => {
-    console.log("clicked!");
-})
+// signInBtn.addEventListener("click", () => {
+//     console.log("clicked!");
+// })
 
 //create test user object
 

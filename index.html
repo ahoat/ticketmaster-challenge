@@ -13,15 +13,18 @@
           <h1>Join our waiting list!</h1>
           <hr>
             <form>
+                <p>Please select your preferred contact method</p>
                 <div class="form-container">
+                    <input type="checkbox" id="email-check" />
                     <label for="email">Email:</label>
-                    <input type="email" name="email" class="email"/> <br><br>
+                    <input type="email" name="email" id="email" /> <br><br>
+                    <input type="checkbox" id="mobile-check" />
                     <label for="mobile">Mobile:</label>
-                    <input type="number" name="mobile" maxlength="11" />
+                    <input type="number" name="mobile" maxlength="11" id="mobile" />
                 </div>
             </form>
         </div>
   </main>
-  <script src="scripts.js"></script>
+  <script type="module" src="index.js"></script>
 </body>
 </html>
