@@ -1,6 +1,9 @@
 # tickmaster-challenge
 
 This is my submission for the ticketmaster take home challenge.
+For this challenge, I have decided to focus on the sign in page and have the email address pre-populated onto the form.
+I used localStorage getters and setters to store the username and populate the email field.
+I created a test user object for the username and password which is used in the validation of the sign in page.
 
 ## case study
 
@@ -32,3 +35,4 @@ The design of the form is attached and there are a number of features required, 
 - I should not be able to submit a blank form
 - I would like visual feedback if my submission has been submitted successfully
 - I should not be allowed to join the waiting list more than once and would like visual feedback that I have already joined the waiting list
+
