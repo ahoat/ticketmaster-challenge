@@ -30,6 +30,10 @@ The design of the form is attached and there are a number of features required, 
 - Successful submission of the form should send a POST request to the waiting list API which will return a success or error response
 - The waiting list API should be called when the form loads, to prevent adding the fan to the waiting list multiple times. If the fan is already on the waiting list the fan should see a message informing them of that
 
+## screenshots
+
+[Sign in failed] (https://github.com/ahoat/ticketmaster-challenge/blob/main/signInFail.JPG)
+
 ## User Stories
 
 - As a fan, I would like to be able to join a waiting list and be notified either by email and/or SMS when tickets become available
