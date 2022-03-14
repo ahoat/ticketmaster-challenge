@@ -3,9 +3,18 @@ const username = document.querySelector(".userEmail");
 const password = document.querySelector(".password");
 const signInBtn = document.querySelector(".signIn-btn");
 const form = document.querySelector(".signIn-form");
+const errorMessage = document.querySelectorAll(".error");
+
+console.log(errorMessage);
 
 form.addEventListener("submit", e => {
     e.preventDefault();
+    if (username.value === users.email && password.value === users.password) {
+        form.submit();
+    } else {
+        errorMessage.forEach((element) => {
+        element.style.visibility = "visible"})
+    }
 });
 
 
@@ -19,10 +28,8 @@ let users = {"email" : "Ahoa@test.com",
             "password" : "123456"
 }
 
+console.log(users.email);
 
 //grap input from index.html
 
-const email = document.querySelector(".email");
 
-email.value = users.email;
-console.log(users.email);
