@@ -1,4 +1,4 @@
-# tickmaster-challenge
+# ticketmaster-challenge
 
 This is my submission for the ticketmaster take home challenge.
 For this challenge, I have decided to focus on the sign in page and have the email address pre-populated onto the form.
